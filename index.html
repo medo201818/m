@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>برنامج إدارة الكاشات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>برنامج إدارة الكاشات</h1>
+    </header>
+    <nav>
+        <a href="#" onclick="showSection('home')">الرئيسية</a>
+        <a href="#" onclick="showSection('transactions')">المعاملات</a>
+        <a href="#" onclick="showSection('invoices')">الفواتير</a>
+        <a href="#" onclick="showSection('settings')">الإعدادات</a>
+    </nav>
+    <main id="main-content">
+        <section id="home">
+            <h2>مرحبًا بك في برنامج إدارة الكاشات</h2>
+            <p>قم بإدارة الكاشات والفواتير والمعاملات بكل سهولة ويسر.</p>
+            <button onclick="startUsing()">بدء الاستخدام</button>
+        </section>
+        <section id="transactions" style="display: none;">
+            <h2>المعاملات</h2>
+            <p>إدارة جميع المعاملات هنا.</p>
+        </section>
+        <section id="invoices" style="display: none;">
+            <h2>الفواتير</h2>
+            <p>إدارة الفواتير هنا.</p>
+        </section>
+        <section id="settings" style="display: none;">
+            <h2>الإعدادات</h2>
+            <p>تخصيص إعدادات التطبيق.</p>
+        </section>
+    </main>
+    <script src="renderer.js"></script>
+</body>
+</html>

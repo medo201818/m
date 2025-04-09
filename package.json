@@ -1,0 +1,14 @@
+{
+  "name": "cash-management-app",
+  "version": "1.0.0",
+  "description": "برنامج لإدارة الكاشات والفواتير والمعاملات",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^25.3.0"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
